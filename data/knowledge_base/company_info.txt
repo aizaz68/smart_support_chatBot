@@ -1,0 +1,629 @@
+ScalableTech Solutions – Company Knowledge Base
+
+Company Overview
+
+ScalableTech Solutions is a technology solutions company that designs, develops, implements, and delivers practical digital systems for businesses across multiple industries. We do not only provide consulting or strategy; we also build, deploy, integrate, and support complete solutions.
+
+Our work includes IT support, software consulting, cloud migration, AI systems, mobile applications, web applications, workflow automations, GoHighLevel implementations, and AI-powered marketing solutions.
+
+We help businesses improve operations, customer support, sales processes, internal workflows, and digital products through custom-built systems and production-ready deployments.
+
+--------------------------------------------------
+Core Positioning
+--------------------------------------------------
+
+We provide:
+- Consulting and technical planning
+- End-to-end product development
+- AI system development and deployment
+- Business workflow automation
+- System integration
+- Production implementation
+- Ongoing technical support and optimization
+
+We can work from idea stage to final delivery, including:
+- discovery
+- architecture
+- design
+- development
+- testing
+- deployment
+- integration
+- monitoring
+- maintenance
+- support
+
+--------------------------------------------------
+Core Services
+--------------------------------------------------
+
+1. IT Support
+
+We provide reliable IT support services for businesses that need technical assistance, system stability, and operational continuity.
+
+IT support services include:
+- Remote technical support
+- Troubleshooting and issue resolution
+- Application support
+- Device and user support
+- User access and permissions management
+- Basic network and server support
+- Email and system setup support
+- Performance issue diagnosis
+- Backup and recovery guidance
+- Documentation and technical handover
+
+Delivery model:
+We can provide one-time support, ongoing support retainers, or support linked to systems we develop for clients.
+
+--------------------------------------------------
+
+2. Software Consulting and Solution Delivery
+
+We help businesses plan, design, and build software solutions. This includes both advisory work and actual implementation.
+
+Software consulting and delivery services include:
+- Product strategy and technical planning
+- Architecture design
+- MVP scoping
+- Feature planning
+- Monolith to microservices planning
+- API architecture
+- Database design
+- Dev workflow consulting
+- Scalability planning
+- Code review and technical improvement recommendations
+
+Development and delivery services include:
+- Custom backend development
+- Frontend development
+- Full-stack application development
+- API development
+- Admin dashboards
+- Internal platforms
+- SaaS product development
+- Deployment pipelines
+- Production releases
+
+--------------------------------------------------
+
+3. Cloud Migration and Cloud Delivery
+
+We help businesses move applications, infrastructure, and data to modern cloud environments, and we also execute the migration and deployment process.
+
+Cloud services include:
+- Cloud readiness assessment
+- Infrastructure planning
+- Server migration
+- Application migration
+- Database migration
+- Storage migration
+- Backup strategy design
+- Containerization support
+- Deployment automation
+- Post-migration testing
+- Post-migration support
+
+Supported environments may include:
+- AWS
+- Google Cloud
+- Azure
+- DigitalOcean
+- VPS environments
+- Hybrid cloud environments
+
+Delivery scope can include:
+- planning
+- implementation
+- migration execution
+- validation
+- optimization
+- documentation
+
+--------------------------------------------------
+
+4. AI Services
+
+We design, develop, implement, and deliver AI-powered systems for businesses. We do not only advise on AI strategy; we build real AI products, agents, workflows, automations, and integrations.
+
+Our AI services include both consulting and hands-on development.
+
+--------------------------------------------------
+4.1 AI Strategy, Discovery, and Use Case Planning
+--------------------------------------------------
+
+We help businesses identify where AI can create value.
+
+This includes:
+- AI opportunity assessment
+- Process analysis
+- Use case discovery
+- Feasibility analysis
+- ROI-focused AI planning
+- AI roadmap design
+- Workflow redesign for AI adoption
+
+--------------------------------------------------
+4.2 LLM Application Development
+--------------------------------------------------
+
+We build and deliver applications powered by large language models.
+
+LLM solutions include:
+- AI chat assistants
+- Internal knowledge assistants
+- Website support bots
+- Customer service copilots
+- Sales assistants
+- Document Q&A systems
+- SOP and policy assistants
+- Proposal drafting assistants
+- Email drafting assistants
+- Research assistants
+- Internal team copilots
+
+What we deliver:
+- Prompt engineering
+- Tool-enabled LLM systems
+- Multi-turn workflows
+- Structured outputs
+- Role-based assistants
+- API-integrated assistants
+- Deployment-ready AI apps
+
+--------------------------------------------------
+4.3 RAG System Development
+--------------------------------------------------
+
+We build Retrieval-Augmented Generation systems that answer questions from company-specific data and documents.
+
+RAG solutions include:
+- Company knowledge assistants
+- Policy and SOP Q&A systems
+- Product documentation assistants
+- Customer support knowledge bots
+- Internal search assistants
+- Contract and compliance assistants
+- Multi-document enterprise search systems
+
+What we build:
+- Document ingestion pipelines
+- Chunking and preprocessing
+- Embedding pipelines
+- Vector database integration
+- Retrieval systems
+- RAG APIs
+- Chat interfaces for enterprise knowledge
+- Source-grounded response systems
+
+--------------------------------------------------
+4.4 Agentic AI System Development
+--------------------------------------------------
+
+We design and build agentic AI systems where AI can follow workflows, reason through tasks, use tools, call APIs, and complete actions.
+
+Agentic systems include:
+- Customer support agents
+- Booking agents
+- Lead qualification agents
+- CRM update agents
+- Ticket triage agents
+- AI operations agents
+- Task execution agents
+- Internal workflow agents
+- Human handoff-enabled agents
+- Multi-step decision agents
+
+Technologies and delivery may include:
+- LangChain-based tool calling
+- LangGraph-based orchestration
+- Multi-agent workflows
+- Memory-enabled conversations
+- Human-in-the-loop systems
+- Task planning and execution flows
+- Observability and logging
+
+--------------------------------------------------
+4.5 Generative AI Solutions
+--------------------------------------------------
+
+We build systems that generate useful business content across text, image, audio, and workflow outputs.
+
+Generative AI use cases include:
+- Marketing copy generation
+- Blog and article drafting
+- Product description generation
+- Proposal generation
+- Sales email generation
+- Personalized outreach generation
+- Meeting summary generation
+- Report generation
+- Presentation drafting
+- Internal content generation workflows
+
+We can deliver:
+- Custom generation pipelines
+- Brand-aligned content assistants
+- Multi-step content workflows
+- Review and approval integrations
+- CRM or CMS-connected generation systems
+
+--------------------------------------------------
+4.6 Image AI and Visual AI Solutions
+--------------------------------------------------
+
+We develop image-related AI solutions for creation, editing, inspection, and analysis.
+
+Image AI services include:
+- AI image generation workflows
+- Ad creative generation
+- Product mockup generation
+- Visual ideation systems
+- AI-powered image enhancement
+- OCR and document image extraction
+- Visual inspection pipelines
+- Image classification workflows
+- Image-based reporting systems
+- Media generation and processing workflows
+
+We can build solutions involving:
+- prompt-based image generation
+- image analysis pipelines
+- document image understanding
+- AI-enhanced media workflows
+- branding and campaign asset generation
+
+--------------------------------------------------
+4.7 Voice AI and Call Agent Development
+--------------------------------------------------
+
+We build voice-based AI systems and call agents for businesses that need automated inbound or outbound communication.
+
+Voice and call agent solutions include:
+- Inbound support voice agents
+- Appointment scheduling voice agents
+- Follow-up call agents
+- Reminder call systems
+- FAQ call bots
+- Lead qualification voice agents
+- Property support call agents
+- Healthcare appointment call assistants
+- Sales pre-qualification agents
+- Customer intake voice systems
+
+Capabilities include:
+- speech-to-text
+- text-to-speech
+- real-time voice workflows
+- call routing logic
+- CRM integration
+- calendar booking integration
+- conversation logging
+- call summaries
+- escalation to human agents
+
+We can deliver:
+- voice workflows
+- prompt logic
+- API-integrated call systems
+- telephony integrations
+- call automation pipelines
+- production-ready call handling flows
+
+--------------------------------------------------
+4.8 Automation with AI
+--------------------------------------------------
+
+We combine AI with workflow automation to reduce manual work and improve business efficiency.
+
+AI automation solutions include:
+- lead routing and qualification
+- ticket triage
+- CRM note generation
+- meeting summary automation
+- email classification
+- response drafting workflows
+- form-to-database intelligent pipelines
+- approval and review workflows
+- AI-assisted data extraction
+- internal task automation
+
+We can implement using:
+- APIs
+- custom backends
+- workflow platforms
+- business logic engines
+- third-party SaaS integrations
+
+--------------------------------------------------
+4.9 Custom AI Product Development
+--------------------------------------------------
+
+We develop complete AI-powered products for startups and businesses.
+
+This may include:
+- AI SaaS platforms
+- AI web applications
+- AI mobile applications
+- AI admin dashboards
+- internal AI copilots
+- multi-agent systems
+- AI analytics interfaces
+- industry-specific AI tools
+- AI workflow platforms
+- customer-facing AI products
+
+Delivery may include:
+- product architecture
+- development
+- deployment
+- integrations
+- admin tools
+- analytics
+- user roles
+- monitoring
+- support
+
+--------------------------------------------------
+5. Mobile App Development
+--------------------------------------------------
+
+We design and develop mobile applications for business and customer use cases.
+
+Mobile services include:
+- custom Android and iOS app development
+- cross-platform mobile apps
+- internal operations apps
+- field-force apps
+- service booking apps
+- AI-enabled mobile apps
+- CRM-connected mobile apps
+- backend-integrated mobile apps
+- app maintenance and upgrades
+
+We can deliver:
+- UI implementation
+- backend integration
+- API connectivity
+- role-based systems
+- push notification workflows
+- analytics integration
+- deployment support
+
+--------------------------------------------------
+6. Web App Development
+--------------------------------------------------
+
+We develop web applications, dashboards, portals, admin systems, and customer-facing platforms.
+
+Web app services include:
+- admin dashboards
+- customer portals
+- appointment systems
+- internal business tools
+- SaaS products
+- AI-enabled web applications
+- CRM-like systems
+- support platforms
+- multi-user systems
+- analytics dashboards
+
+What we deliver:
+- frontend development
+- backend development
+- full-stack web applications
+- authentication and roles
+- API integrations
+- cloud deployment
+- testing and release support
+
+--------------------------------------------------
+7. Business Automation
+--------------------------------------------------
+
+We design and implement automations for repetitive business operations.
+
+Automation services include:
+- lead capture and routing
+- CRM automation
+- email automation
+- support workflow automation
+- reporting automation
+- approvals and notifications
+- task assignment workflows
+- data synchronization across tools
+- multi-step business process automation
+- AI-assisted operations workflows
+
+We can automate across departments such as:
+- sales
+- support
+- marketing
+- operations
+- HR
+- administration
+- client servicing
+
+--------------------------------------------------
+8. GoHighLevel (GHL) Services
+--------------------------------------------------
+
+We provide both GHL consulting and implementation services.
+
+GHL services include:
+- GHL account setup
+- sub-account setup
+- funnel setup
+- workflow automation
+- CRM customization
+- pipeline setup
+- tags and triggers
+- booking flows
+- missed call text back
+- SMS and email automation
+- AI calling workflows
+- follow-up sequences
+- lead qualification flows
+- appointment confirmation workflows
+- reporting setup
+
+We can build and deliver:
+- complete client onboarding flows
+- lead nurturing systems
+- booking automations
+- AI-enhanced support flows
+- integrated calendar and CRM workflows
+
+--------------------------------------------------
+9. AI Marketing Services
+--------------------------------------------------
+
+We help businesses use AI and automation to improve marketing efficiency, personalization, and conversions.
+
+AI marketing services include:
+- AI content generation systems
+- personalized outreach workflows
+- automated lead nurturing
+- AI website chat assistants
+- AI voice outreach systems
+- campaign content ideation
+- social media assistance workflows
+- sales follow-up automation
+- ad creative support
+- AI-powered lead qualification
+
+We can deliver:
+- marketing automation workflows
+- lead response systems
+- outreach assistants
+- AI-assisted funnel optimization
+- campaign support tools
+
+--------------------------------------------------
+AI Solutions by Sector
+--------------------------------------------------
+
+We build and deliver AI and automation systems for many sectors.
+
+Healthcare:
+- appointment booking assistants
+- patient inquiry bots
+- reminder systems
+- intake assistants
+- support voice agents
+
+Real Estate and Property Management:
+- tenant support agents
+- maintenance request triage
+- leasing inquiry assistants
+- booking and scheduling systems
+- AI call routing solutions
+
+Retail and E-commerce:
+- customer support bots
+- product recommendation assistants
+- order support systems
+- AI marketing workflows
+- automated support routing
+
+Education:
+- student support assistants
+- admissions information bots
+- document and FAQ assistants
+- internal knowledge systems
+- scheduling assistants
+
+Logistics:
+- shipment inquiry assistants
+- internal operations copilots
+- support workflow automation
+- reporting assistants
+- dispatch-related process automation
+
+Professional Services:
+- internal knowledge assistants
+- proposal drafting tools
+- client support assistants
+- automation systems
+- scheduling and intake agents
+
+SMBs and Service Businesses:
+- website chat assistants
+- booking assistants
+- CRM automations
+- lead qualification agents
+- support and follow-up systems
+
+--------------------------------------------------
+Business Hours
+--------------------------------------------------
+
+Business hours are:
+Monday to Friday, 8:00 AM to 6:00 PM CDT
+
+Appointment-related support and consultations are generally handled during business hours.
+
+--------------------------------------------------
+Pricing
+--------------------------------------------------
+
+Standard pricing currently includes:
+
+- Basic IT Support: $50 per hour
+- Cloud Migration Package: starts at $2000
+- Cybersecurity Audit: $1500 flat fee
+- Software Consulting: $80 per hour
+
+Additional services such as AI systems, custom software development, mobile apps, web apps, automations, call agents, and advanced integrations are usually quoted based on project scope, delivery complexity, integrations, and timeline.
+
+For custom development or AI implementation work, clients should contact us for a tailored proposal.
+
+--------------------------------------------------
+Appointment Booking
+--------------------------------------------------
+
+Appointment rules:
+- Appointments are available Monday to Friday
+- Minimum booking notice is 24 hours
+- Each session is 1 hour by default
+- Appointment requests are subject to availability
+- Custom workshops, consulting sessions, or demos may have different durations depending on scope
+
+Appointments may be used for:
+- software consulting
+- AI solution discussions
+- cloud migration discovery
+- automation planning
+- support calls
+- implementation consultations
+
+--------------------------------------------------
+Cancellation Policy
+--------------------------------------------------
+
+Cancellation policy:
+- Cancellations must be made at least 12 hours in advance
+- A $25 fee may apply for cancellations made with less than 12 hours notice
+
+--------------------------------------------------
+Contact Information
+--------------------------------------------------
+
+Email: support@techcare.com
+Phone: 1-800-TECHCARE
+
+Note:
+Please verify whether the contact details should remain as above or be updated to match ScalableTech Solutions branding.
+
+--------------------------------------------------
+Important Response Guidance for AI Assistant
+--------------------------------------------------
+
+When answering questions based on this knowledge base, the assistant should:
+- answer clearly and directly
+- mention that ScalableTech Solutions both consults and delivers complete solutions
+- not position the company as strategy-only
+- clearly state that the company can build, deploy, integrate, and support systems
+- recommend a consultation for custom AI, app, automation, or product development work
+- use business hours, pricing, booking rules, and cancellation policy exactly as stated
+- for services without fixed pricing, explain that pricing depends on project scope and a custom proposal may be required
