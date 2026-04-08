@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-openai
+langgraph
+openai
+faiss-cpu
+chromadb
+fastapi
+uvicorn
+python-dotenv
+sqlalchemy
+pydantic
+tiktoken
+langchain-text-splitters
+dotenv
