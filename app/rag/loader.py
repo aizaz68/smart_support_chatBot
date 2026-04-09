@@ -1,41 +1,39 @@
-from langchain_community.document_loaders import  TextLoader
+import chromadb
+from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
-from langchain_community.vectorstores import Chroma
-import os
+from langchain_chroma import Chroma
 from dotenv import load_dotenv
 load_dotenv()
-DATA_PATH="data/knowledge_base/company_info.txt"
-VECTORSTORE_PATH= "db/chroma_index"
+DATA_PATH = "data/knowledge_base/company_info.txt"
 
 def load_and_index_documents():
-    #check if already exits
-    if os.path.exists(VECTORSTORE_PATH):
-        print('Already Exits, Skipping Indexing....')
-        return load_vectorstore()
+    loader = TextLoader(DATA_PATH)
+    documents = loader.load()
 
-    #Load
-    loader=TextLoader(DATA_PATH)
-    documents=loader.load()
+    splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+    chunks = splitter.split_documents(documents)
 
-    #chunk
-    splitter=RecursiveCharacterTextSplitter(
-        chunk_size=500,
-        chunk_overlap=50
+    embeddings = OpenAIEmbeddings()
+    client = chromadb.HttpClient(host="localhost", port=8000)
+    vectorstore = Chroma.from_documents(
+        chunks,
+        embeddings,
+        client=client,
+        collection_name="company_knowledge"
     )
-    chunks=splitter.split_documents(documents)
 
-    #Embed + Store
-    embedding=OpenAIEmbeddings()
-    vectorstores=Chroma.from_documents(chunks,embedding,persist_directory=VECTORSTORE_PATH)
-    print(f"Indexed {len(chunks)} chunks")
-
-    return vectorstores
+    print(f"Indexed {len(chunks)} chunks.")
+    return vectorstore
 
 def load_vectorstore():
-    embeddings=OpenAIEmbeddings()
+    embeddings = OpenAIEmbeddings()
+    client = chromadb.HttpClient(host="localhost", port=8000)
     return Chroma(
-        persist_directory=VECTORSTORE_PATH,
+        client=client,
+        collection_name="company_knowledge",
         embedding_function=embeddings
     )
 
+# if __name__ == "__main__":
+#     load_and_index_documents()

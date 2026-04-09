@@ -2,6 +2,7 @@ langchain
 langchain-community
 langchain-openai
 langgraph
+langchain-chroma
 openai
 faiss-cpu
 chromadb

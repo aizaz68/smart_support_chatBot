@@ -19,7 +19,15 @@ HumanMessage(content=query)
     ]
 
 def generate(messages:list)-> str:
-    llm=ChatOpenAI(model="")
+    llm=ChatOpenAI(model="gpt-5.4-mini",temperature='1')
+    response=llm.invoke(messages)
+    return response.content
 
-if __name__ == "__main__":
-    print('i ma here ')
+def rag_answer(query:str)->str:
+    docs=retrieve_relevant_docs(query)
+    messages=augment(query,docs)
+    return generate(messages)
+
+# if __name__ == "__main__":
+#     answer= rag_answer('what services do you provide?')
+#     print(answer)
