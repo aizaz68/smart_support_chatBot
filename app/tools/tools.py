@@ -36,3 +36,16 @@ def create_support_ticket(issue: str) -> dict:
 def send_confirmation(details: dict) -> dict:
     print(f"Confirmation sent: {details}")
     return {"status": "sent", "details": details}
+
+
+def log_conversation(session_id: str, user_input:str, intent:str, response:str, escalated:bool)-> dict:
+    conn=get_connection()
+    cursor=conn.cursor()
+    cursor.execute(
+        "INSERT INTO conversation_logs (session_id, user_input, intent, response, escalated) Values (?,?,?,?,?)",
+        (session_id,user_input,intent,response,int(escalated))
+    )
+    conn.commit()
+    conn.close()
+    return {"status": "logged"
+    }

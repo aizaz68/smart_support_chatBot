@@ -28,6 +28,18 @@ def init_db():
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
     """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS conversation_logs (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        session_id TEXT NOT NULL,
+        user_input TEXT NOT NULL,
+        intent TEXT,
+        response TEXT,
+        escalated INTEGER DEFAULT 0,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )
+""")
+
     conn.commit()
     conn.close()
     print("Database initialized.")

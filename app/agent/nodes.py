@@ -6,10 +6,31 @@ from app.tools.tools import (
     book_appointment,
     create_support_ticket,
     send_confirmation,
-    check_calendar_availability
+    check_calendar_availability,
+    log_conversation
 )
+from langchain_core.messages import HumanMessage,AIMessage
 
 llm = ChatOpenAI(model="gpt-4o-mini")
+
+
+
+def log_and_respond(state: AgentState) -> AgentState:
+    log_conversation(
+        session_id=state.get("session_id", "default"),
+        user_input=state["user_input"],
+        intent=state["intent"],
+        response=state["response"],
+        escalated=state["escalation"]
+    )
+    # Append to message history for memory
+    state["messages"] = [
+        HumanMessage(content=state["user_input"]),
+        AIMessage(content=state["response"])
+    ]
+    return state
+
+    
 
 def classify_intent(state: AgentState) -> AgentState:
     response = llm.invoke([

@@ -15,7 +15,7 @@ def load_and_index_documents():
     chunks = splitter.split_documents(documents)
 
     embeddings = OpenAIEmbeddings()
-    client = chromadb.HttpClient(host="localhost", port=8000)
+    client = chromadb.HttpClient(host="localhost", port=8001)
     vectorstore = Chroma.from_documents(
         chunks,
         embeddings,
@@ -28,7 +28,7 @@ def load_and_index_documents():
 
 def load_vectorstore():
     embeddings = OpenAIEmbeddings()
-    client = chromadb.HttpClient(host="localhost", port=8000)
+    client = chromadb.HttpClient(host="localhost", port=8001)
     return Chroma(
         client=client,
         collection_name="company_knowledge",
